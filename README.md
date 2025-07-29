@@ -121,5 +121,24 @@ Step- 10: Display the concatenated string:
 Step- 11: Output the concatenated string using std::cout.
 Step- 12: End.
 
+#Program g: Printing strings in reverse 
+This program takes a string input from the user and prints the reversed version of that string. It uses the std::string class to store the input and reads the entire line of input using std::getline(std::cin, input) to ensure spaces are included. The function std::reverse from the <algorithm> header is used to reverse the string in place by swapping characters from the beginning to the end. Finally, the reversed string is displayed using std::cout. This approach is efficient and simple because it utilizes the built-in std::reverse algorithm instead of manually reversing the string.
+
+Algorithm:
+Step- 1: Start the program.
+Step- 2: Declare a variable to store the input string:
+Step- 3: Create a variable input of type std::string to hold the string entered by the user.
+Step- 4: Prompt the user for input:
+Step- 5: Display a message asking the user to enter a string.
+Step- 6: Read the input string:
+Step- 7: Use std::getline(std::cin, input) to read the entire line of text typed by the user.
+Step- 8: This allows the input to contain spaces and stores it in the variable input.
+Step- 9: Reverse the string:
+Step- 10: Use the std::reverse function from the <algorithm> library.
+Step- 11: Pass two iterators: input.begin() (pointing to the first character) and input.end() (pointing past the last character).
+Step- 12: The std::reverse function will swap the characters in the string, effectively reversing it in place.
+Step- 13: Display the reversed string:
+Step- 14: Print the message "Reversed string: " followed by the reversed content of input.
+Step- 15: End. 
 
 
