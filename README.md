@@ -101,3 +101,25 @@ Step- 27: Declare cstr3 as a pointer to a constant C-string.
 Step- 28: Display cstr3
 Step- 29: End.
 
+#Program f: Concatenation of strings
+This program demonstrates string concatenation in C++. It prompts the user to input two strings, and then it concatenates these two strings with a space between them. The concatenated result is displayed to the user. It declares two variables str1 and str2 of type std::string to store the user input. Then, the std::getline() function is used to take input from the user for both str1 and str2. The advantage of std::getline() is that it allows the input to include spaces, unlike std::cin which stops at the first whitespace.
+The + operator is used to concatenate the strings str1 and str2, with a space " " in between them. The result is stored in the result string. Finally, the program prints the concatenated string using std::cout.
+
+Algorithm:
+
+Step- 1: Declare two string variables:
+str1, str2, and result.
+Step- 2: Take user input:
+Step- 3: Display "Enter the first string: ".
+Step- 4: Use std::getline(std::cin, str1) to read the first string.
+Step- 5: Display "Enter the second string: ".
+Step- 6: Use std::getline(std::cin, str2) to read the second string.
+Step- 7: Concatenate the strings:
+Step- 8: Concatenate str1 and str2 with a space in between and store the result in result.
+Step- 9: result = str1 + " " + str2;
+Step- 10: Display the concatenated string:
+Step- 11: Output the concatenated string using std::cout.
+Step- 12: End.
+
+
+
