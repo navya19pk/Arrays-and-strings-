@@ -66,3 +66,38 @@ Step- 8: If arr[i] < min, set min = arr[i]
 Step- 9: Print the values of max and min.
 Step- 10: End
 
+#Program e: Different ways to declare and initialize a string
+This program firstly contains std::string str1;: This line declares a string object str1 using the default constructor. Initially, str1 is empty because no value is assigned when the object is created.Then it have std::getline(std::cin, str1);: This reads a full line of text from the user input (including spaces) and stores it in str1. std::cin reads input, and std::getline() is used to capture the entire line, even if it contains spaces and finally displays the value entered by the user for str1.
+
+Algorithm:
+
+Step- 1: Declare an empty string (str1) using std::string:
+Step- 2: Declare str1 as an empty string.
+Step- 3: Prompt user to enter a string.
+Step- 4: Use std::getline() to take input and display str1.
+Step- 5: Declare and initialize a string (str2) with user input:
+Step- 6: Declare str2 as a std::string.
+Step- 7: Prompt user to enter a string for str2.
+Step- 8: Use std::getline() to get input and display str2.
+Step- 9: Declare and initialize another string (str3) with user input:
+Step- 10: Declare str3 as a std::string.
+Step- 11: Prompt user to enter a string for str3.
+Step- 12: Use std::getline() to take input and display str3.
+Step- 13: Create a string (str4) with repeated characters (*):
+Step- 14: Use std::string str4(repeatCount, '*') to create the string and display it.
+Step- 15: Create a copy of str2 into str5:
+Step- 16: Declare str5 as a copy of str2.
+Step- 17: Display str5.
+Step- 18: Declare and initialize a C-style string (cstr1) using std::cin.getline():
+Step- 19: Declare cstr1 as a character array of size 100.
+Step- 20: Prompt user for input and store it using std::cin.getline().
+Step- 21: Display cstr1.
+Step- 22: Declare and initialize another C-style string (cstr2) using std::cin.getline():
+Step- 23: Declare cstr2 as a character array of size 100.
+Step- 24: Prompt user for input and store it using std::cin.getline().
+Step- 25: Display cstr2.
+Step- 26: Initialize a constant pointer to a C-string literal (cstr3):
+Step- 27: Declare cstr3 as a pointer to a constant C-string.
+Step- 28: Display cstr3
+Step- 29: End.
+
