@@ -125,7 +125,8 @@ Step- 12: End.
 This program takes a string input from the user and prints the reversed version of that string. It uses the std::string class to store the input and reads the entire line of input using std::getline(std::cin, input) to ensure spaces are included. The function std::reverse from the <algorithm> header is used to reverse the string in place by swapping characters from the beginning to the end. Finally, the reversed string is displayed using std::cout. This approach is efficient and simple because it utilizes the built-in std::reverse algorithm instead of manually reversing the string.
 
 Algorithm:
-Step- 1: Start the program.
+
+Step- 1: Start
 Step- 2: Declare a variable to store the input string:
 Step- 3: Create a variable input of type std::string to hold the string entered by the user.
 Step- 4: Prompt the user for input:
@@ -140,5 +141,31 @@ Step- 12: The std::reverse function will swap the characters in the string, effe
 Step- 13: Display the reversed string:
 Step- 14: Print the message "Reversed string: " followed by the reversed content of input.
 Step- 15: End. 
+
+#Program h: Program for palindrome checking
+This program checks whether a given string is a palindrome — meaning the string reads the same forward and backward, ignoring case and spaces. It accepts input from the user as a full line (including spaces) using std::getline. It converts the entire input string to lowercase using std::transform and the standard library function ::tolower. This makes the palindrome check case-insensitive. It removes all spaces from the input using std::remove and erase, allowing phrases with spaces (e.g., "A man a plan a canal Panama") to be checked correctly. It creates a copy of the cleaned input string named reversed and reverses it using std::reverse. It then compares the cleaned input string to its reversed version. If both are equal, the program outputs that the string is a palindrome; otherwise, it outputs that it is not.
+
+Algorithm:
+
+Step- 1: Start
+Step- 2: Declare two string variables:
+input for storing the user input.
+Step- 3: Reversed for storing the reversed version of the processed input.
+Step- 4: Prompt the user to enter a string.
+Step- 5: Read the full input line (including spaces) into the input string.
+Step- 6: Convert all characters of input to lowercase:
+Step- 7: Use std::transform with ::tolower to convert each character.
+Step- 8: Remove all spaces from the string:
+Step- 9: Use std::remove to move spaces to the end.
+Step- 10: Use erase to delete those trailing spaces.
+Step- 11: Copy the processed string into reversed.
+Step- 12: Reverse the string reversed using std::reverse.
+Step- 13: Compare input and reversed:
+Step- 14: If they are equal, the string is a palindrome.
+Otherwise, it is not.
+Step- 15: Display the result to the user.
+Step- 16: End.
+
+
 
 
