@@ -3,7 +3,7 @@ Aim: To study and implement Arrays and Strings in C++
 #Program a: Printing Array elements 
 This program initializes an integer array with predefined values {10, 20, 30, 40, 50}. It calculates the size of the array and then prints each element using a for loop. The output displays all the array elements in a single line.
 
-- Algorithm:
+Algorithm:
 
 - Step- 1: Start
 - Step- 2: Declare and initialize the array with fixed elements.
@@ -34,7 +34,7 @@ Step- 10: End
 #Program c: To find the sum and average of Array elements 
 This program calculates the sum and average of the elements in a predefined array {10, 20, 30, 40, 50}. It uses a for loop to sum all the elements, then divides the total by the number of elements to find the average. Both the sum and average are displayed as output.
 
-- Algorithm:
+Algorithm:
 
 - Step- 1: Start
 - Step- 2: Declare and initialize the array with elements.
@@ -51,7 +51,7 @@ This program calculates the sum and average of the elements in a predefined arra
 #Program d: To find the minimum and maximum in an Array
 This program takes the array size and elements as input from the user. It then scans through the array to find the maximum and minimum values using a for loop. The final output displays both the highest and lowest values from the array.
 
-- Algorithm:
+Algorithm:
 
 - Step- 1: Start
 - Step- 2: Prompt the user to enter the size of the array.
@@ -69,7 +69,7 @@ This program takes the array size and elements as input from the user. It then s
 #Program e: Different ways to declare and initialize a string
 This program firstly contains std::string str1;: This line declares a string object str1 using the default constructor. Initially, str1 is empty because no value is assigned when the object is created.Then it have std::getline(std::cin, str1);: This reads a full line of text from the user input (including spaces) and stores it in str1. std::cin reads input, and std::getline() is used to capture the entire line, even if it contains spaces and finally displays the value entered by the user for str1.
 
-- Algorithm:
+Algorithm:
 
 - Step- 1: Declare an empty string (str1) using std::string:
 - Step- 2: Declare str1 as an empty string.
@@ -105,7 +105,7 @@ This program firstly contains std::string str1;: This line declares a string obj
 This program demonstrates string concatenation in C++. It prompts the user to input two strings, and then it concatenates these two strings with a space between them. The concatenated result is displayed to the user. It declares two variables str1 and str2 of type std::string to store the user input. Then, the std::getline() function is used to take input from the user for both str1 and str2. The advantage of std::getline() is that it allows the input to include spaces, unlike std::cin which stops at the first whitespace.
 The + operator is used to concatenate the strings str1 and str2, with a space " " in between them. The result is stored in the result string. Finally, the program prints the concatenated string using std::cout.
 
-- Algorithm:
+Algorithm:
 
 - Step- 1: Declare two string variables:
 str1, str2, and result.
@@ -124,7 +124,7 @@ str1, str2, and result.
 #Program g: Printing strings in reverse 
 This program takes a string input from the user and prints the reversed version of that string. It uses the std::string class to store the input and reads the entire line of input using std::getline(std::cin, input) to ensure spaces are included. The function std::reverse from the <algorithm> header is used to reverse the string in place by swapping characters from the beginning to the end. Finally, the reversed string is displayed using std::cout. This approach is efficient and simple because it utilizes the built-in std::reverse algorithm instead of manually reversing the string.
 
-- Algorithm:
+Algorithm:
 
 - Step- 1: Start
 - Step- 2: Declare a variable to store the input string:
@@ -145,7 +145,7 @@ This program takes a string input from the user and prints the reversed version 
 #Program h: Program for palindrome checking
 This program checks whether a given string is a palindrome — meaning the string reads the same forward and backward, ignoring case and spaces. It accepts input from the user as a full line (including spaces) using std::getline. It converts the entire input string to lowercase using std::transform and the standard library function ::tolower. This makes the palindrome check case-insensitive. It removes all spaces from the input using std::remove and erase, allowing phrases with spaces (e.g., "A man a plan a canal Panama") to be checked correctly. It creates a copy of the cleaned input string named reversed and reverses it using std::reverse. It then compares the cleaned input string to its reversed version. If both are equal, the program outputs that the string is a palindrome; otherwise, it outputs that it is not.
 
-- Algorithm:
+Algorithm:
 
 - Step- 1: Start
 - Step- 2: Declare two string variables:
